@@ -14,6 +14,13 @@
 		15B5622E25DE323900D5B871 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15B5622D25DE323900D5B871 /* Assets.xcassets */; };
 		15B5623125DE323900D5B871 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15B5622F25DE323900D5B871 /* LaunchScreen.storyboard */; };
 		15B5623B25DE403800D5B871 /* Queen.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 15B5623A25DE403800D5B871 /* Queen.mp3 */; };
+		87142DFD2632EB8800CB696B /* AC_DC — Highway to Hell.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 87142DFC2632EB8800CB696B /* AC_DC — Highway to Hell.mp3 */; };
+		87142E002632EBE900CB696B /* Guns N Roses — Welcome To The Jungle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 87142DFF2632EBE900CB696B /* Guns N Roses — Welcome To The Jungle.mp3 */; };
+		87142E032632ED2900CB696B /* Dead Kennedys - Holiday In Cambodia.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 87142E022632ED2900CB696B /* Dead Kennedys - Holiday In Cambodia.mp3 */; };
+		87142E062632EDA400CB696B /* Iron Maiden - The Number of the Beast.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 87142E052632EDA400CB696B /* Iron Maiden - The Number of the Beast.mp3 */; };
+		876EBFDD2633035A00B9EF3A /* VideosTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876EBFDC2633035A00B9EF3A /* VideosTableViewCell.swift */; };
+		876EBFE02633075E00B9EF3A /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876EBFDF2633075E00B9EF3A /* VideoViewController.swift */; };
+		876EBFE32633091A00B9EF3A /* Videos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876EBFE22633091A00B9EF3A /* Videos.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +33,13 @@
 		15B5623025DE323900D5B871 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		15B5623225DE323900D5B871 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		15B5623A25DE403800D5B871 /* Queen.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Queen.mp3; sourceTree = "<group>"; };
+		87142DFC2632EB8800CB696B /* AC_DC — Highway to Hell.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "AC_DC — Highway to Hell.mp3"; path = "../../../AC_DC — Highway to Hell.mp3"; sourceTree = "<group>"; };
+		87142DFF2632EBE900CB696B /* Guns N Roses — Welcome To The Jungle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Guns N Roses — Welcome To The Jungle.mp3"; path = "../../../Guns N Roses — Welcome To The Jungle.mp3"; sourceTree = "<group>"; };
+		87142E022632ED2900CB696B /* Dead Kennedys - Holiday In Cambodia.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Dead Kennedys - Holiday In Cambodia.mp3"; path = "../../../Dead Kennedys - Holiday In Cambodia.mp3"; sourceTree = "<group>"; };
+		87142E052632EDA400CB696B /* Iron Maiden - The Number of the Beast.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Iron Maiden - The Number of the Beast.mp3"; path = "../../../Iron Maiden - The Number of the Beast.mp3"; sourceTree = "<group>"; };
+		876EBFDC2633035A00B9EF3A /* VideosTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideosTableViewCell.swift; sourceTree = "<group>"; };
+		876EBFDF2633075E00B9EF3A /* VideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
+		876EBFE22633091A00B9EF3A /* Videos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Videos.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +80,9 @@
 				15B5622F25DE323900D5B871 /* LaunchScreen.storyboard */,
 				15B5623925DE3FDE00D5B871 /* Music */,
 				15B5623225DE323900D5B871 /* Info.plist */,
+				876EBFDC2633035A00B9EF3A /* VideosTableViewCell.swift */,
+				876EBFDF2633075E00B9EF3A /* VideoViewController.swift */,
+				876EBFE22633091A00B9EF3A /* Videos.swift */,
 			);
 			path = AVFoundation_Audio;
 			sourceTree = "<group>";
@@ -73,6 +90,10 @@
 		15B5623925DE3FDE00D5B871 /* Music */ = {
 			isa = PBXGroup;
 			children = (
+				87142E052632EDA400CB696B /* Iron Maiden - The Number of the Beast.mp3 */,
+				87142E022632ED2900CB696B /* Dead Kennedys - Holiday In Cambodia.mp3 */,
+				87142DFF2632EBE900CB696B /* Guns N Roses — Welcome To The Jungle.mp3 */,
+				87142DFC2632EB8800CB696B /* AC_DC — Highway to Hell.mp3 */,
 				15B5623A25DE403800D5B871 /* Queen.mp3 */,
 			);
 			path = Music;
@@ -136,7 +157,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				15B5623125DE323900D5B871 /* LaunchScreen.storyboard in Resources */,
+				87142E062632EDA400CB696B /* Iron Maiden - The Number of the Beast.mp3 in Resources */,
 				15B5622E25DE323900D5B871 /* Assets.xcassets in Resources */,
+				87142E032632ED2900CB696B /* Dead Kennedys - Holiday In Cambodia.mp3 in Resources */,
+				87142E002632EBE900CB696B /* Guns N Roses — Welcome To The Jungle.mp3 in Resources */,
+				87142DFD2632EB8800CB696B /* AC_DC — Highway to Hell.mp3 in Resources */,
 				15B5623B25DE403800D5B871 /* Queen.mp3 in Resources */,
 				15B5622C25DE323700D5B871 /* Main.storyboard in Resources */,
 			);
@@ -150,7 +175,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				15B5622925DE323700D5B871 /* ViewController.swift in Sources */,
+				876EBFDD2633035A00B9EF3A /* VideosTableViewCell.swift in Sources */,
 				15B5622525DE323700D5B871 /* AppDelegate.swift in Sources */,
+				876EBFE32633091A00B9EF3A /* Videos.swift in Sources */,
+				876EBFE02633075E00B9EF3A /* VideoViewController.swift in Sources */,
 				15B5622725DE323700D5B871 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
