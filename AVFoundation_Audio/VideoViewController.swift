@@ -10,15 +10,33 @@ import WebKit
 
 class VideoViewController: UIViewController {
     
-    @IBOutlet weak var videoView: WKWebView!
+    private let videoView: WKWebView = {
+        let video = WKWebView()
+        video.translatesAutoresizingMaskIntoConstraints = false
+        return video
+    }()
     
     var video: URL?
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        setupViews()
 
-        print("video \(video)")
         let request = URLRequest(url: video!)
         videoView.load(request)
+    }
+    
+    private func setupViews() {
+        view.addSubview(videoView)
+        
+        let constraints = [
+            videoView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor),
+            videoView.leadingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leadingAnchor),
+            videoView.trailingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.trailingAnchor),
+            videoView.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor)
+            
+        ]
+        
+        NSLayoutConstraint.activate(constraints)
     }
 }
